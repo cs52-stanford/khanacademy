@@ -7,6 +7,8 @@ target 'khanacademy' do
 
   # Pods for khanacademy
   pod 'Firebase/Analytics'
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
   
   target 'khanacademyTests' do
     inherit! :search_paths
