@@ -6,7 +6,9 @@ target 'khanacademy' do
   use_frameworks!
 
   # Pods for khanacademy
-
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
+  
   target 'khanacademyTests' do
     inherit! :search_paths
     # Pods for testing
