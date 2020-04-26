@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		378971D445AB449BA4A50BD6 /* Pods_khanacademy_khanacademyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD32910D00C4B7D39E806EA0 /* Pods_khanacademy_khanacademyUITests.framework */; };
+		4F8E119F245642E400B72AD5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F8E119E245642E400B72AD5 /* GoogleService-Info.plist */; };
 		4FBD2EDC2450D8A800DEF6E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBD2EDB2450D8A800DEF6E4 /* AppDelegate.swift */; };
 		4FBD2EDE2450D8A800DEF6E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBD2EDD2450D8A800DEF6E4 /* SceneDelegate.swift */; };
 		4FBD2EE02450D8A800DEF6E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBD2EDF2450D8A800DEF6E4 /* ViewController.swift */; };
@@ -15,6 +17,8 @@
 		4FBD2EE82450D8A900DEF6E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FBD2EE62450D8A900DEF6E4 /* LaunchScreen.storyboard */; };
 		4FBD2EF32450D8A900DEF6E4 /* khanacademyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBD2EF22450D8A900DEF6E4 /* khanacademyTests.swift */; };
 		4FBD2EFE2450D8A900DEF6E4 /* khanacademyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBD2EFD2450D8A900DEF6E4 /* khanacademyUITests.swift */; };
+		5462FD943852AE82B678828F /* Pods_khanacademy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2E46448A0214516A5EE547 /* Pods_khanacademy.framework */; };
+		D7CA98D6DB1FE09B0DE535D0 /* Pods_khanacademyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC208DF78CAC63E8B45F4EA /* Pods_khanacademyTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2AC020AC7DF2D19DA5B70EAA /* Pods-khanacademy-khanacademyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-khanacademy-khanacademyUITests.release.xcconfig"; path = "Target Support Files/Pods-khanacademy-khanacademyUITests/Pods-khanacademy-khanacademyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4F8E119E245642E400B72AD5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4FBD2ED82450D8A800DEF6E4 /* khanacademy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = khanacademy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FBD2EDB2450D8A800DEF6E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FBD2EDD2450D8A800DEF6E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,14 @@
 		4FBD2EF92450D8A900DEF6E4 /* khanacademyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = khanacademyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FBD2EFD2450D8A900DEF6E4 /* khanacademyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = khanacademyUITests.swift; sourceTree = "<group>"; };
 		4FBD2EFF2450D8A900DEF6E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B2E46448A0214516A5EE547 /* Pods_khanacademy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_khanacademy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		807B617E3D69F84DDDA1EB30 /* Pods-khanacademyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-khanacademyTests.debug.xcconfig"; path = "Target Support Files/Pods-khanacademyTests/Pods-khanacademyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A56745A6549DEB2C962692AF /* Pods-khanacademy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-khanacademy.debug.xcconfig"; path = "Target Support Files/Pods-khanacademy/Pods-khanacademy.debug.xcconfig"; sourceTree = "<group>"; };
+		CDB74CFCFA24AA5E8D7DE21D /* Pods-khanacademy-khanacademyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-khanacademy-khanacademyUITests.debug.xcconfig"; path = "Target Support Files/Pods-khanacademy-khanacademyUITests/Pods-khanacademy-khanacademyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D492A8CEBB76D273EE08395F /* Pods-khanacademy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-khanacademy.release.xcconfig"; path = "Target Support Files/Pods-khanacademy/Pods-khanacademy.release.xcconfig"; sourceTree = "<group>"; };
+		DAC208DF78CAC63E8B45F4EA /* Pods_khanacademyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_khanacademyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD32910D00C4B7D39E806EA0 /* Pods_khanacademy_khanacademyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_khanacademy_khanacademyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09AD099012D0B06480FB08D /* Pods-khanacademyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-khanacademyTests.release.xcconfig"; path = "Target Support Files/Pods-khanacademyTests/Pods-khanacademyTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5462FD943852AE82B678828F /* Pods_khanacademy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7CA98D6DB1FE09B0DE535D0 /* Pods_khanacademyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				378971D445AB449BA4A50BD6 /* Pods_khanacademy_khanacademyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		141326A59F17D51B84A0D908 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B2E46448A0214516A5EE547 /* Pods_khanacademy.framework */,
+				DD32910D00C4B7D39E806EA0 /* Pods_khanacademy_khanacademyUITests.framework */,
+				DAC208DF78CAC63E8B45F4EA /* Pods_khanacademyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4FBD2ECF2450D8A800DEF6E4 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +110,8 @@
 				4FBD2EF12450D8A900DEF6E4 /* khanacademyTests */,
 				4FBD2EFC2450D8A900DEF6E4 /* khanacademyUITests */,
 				4FBD2ED92450D8A800DEF6E4 /* Products */,
+				EF28D57D34500C18B58A7E1A /* Pods */,
+				141326A59F17D51B84A0D908 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +128,7 @@
 		4FBD2EDA2450D8A800DEF6E4 /* khanacademy */ = {
 			isa = PBXGroup;
 			children = (
+				4F8E119E245642E400B72AD5 /* GoogleService-Info.plist */,
 				4FBD2EDB2450D8A800DEF6E4 /* AppDelegate.swift */,
 				4FBD2EDD2450D8A800DEF6E4 /* SceneDelegate.swift */,
 				4FBD2EDF2450D8A800DEF6E4 /* ViewController.swift */,
@@ -128,6 +158,20 @@
 			path = khanacademyUITests;
 			sourceTree = "<group>";
 		};
+		EF28D57D34500C18B58A7E1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A56745A6549DEB2C962692AF /* Pods-khanacademy.debug.xcconfig */,
+				D492A8CEBB76D273EE08395F /* Pods-khanacademy.release.xcconfig */,
+				CDB74CFCFA24AA5E8D7DE21D /* Pods-khanacademy-khanacademyUITests.debug.xcconfig */,
+				2AC020AC7DF2D19DA5B70EAA /* Pods-khanacademy-khanacademyUITests.release.xcconfig */,
+				807B617E3D69F84DDDA1EB30 /* Pods-khanacademyTests.debug.xcconfig */,
+				F09AD099012D0B06480FB08D /* Pods-khanacademyTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FBD2F022450D8A900DEF6E4 /* Build configuration list for PBXNativeTarget "khanacademy" */;
 			buildPhases = (
+				7FC9701849C52C85DACB47D6 /* [CP] Check Pods Manifest.lock */,
 				4FBD2ED42450D8A800DEF6E4 /* Sources */,
 				4FBD2ED52450D8A800DEF6E4 /* Frameworks */,
 				4FBD2ED62450D8A800DEF6E4 /* Resources */,
+				1BCA7705AC3E28FD75C1AB8B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FBD2F052450D8A900DEF6E4 /* Build configuration list for PBXNativeTarget "khanacademyTests" */;
 			buildPhases = (
+				A3241CC9A3781DBA0C875EBB /* [CP] Check Pods Manifest.lock */,
 				4FBD2EEA2450D8A900DEF6E4 /* Sources */,
 				4FBD2EEB2450D8A900DEF6E4 /* Frameworks */,
 				4FBD2EEC2450D8A900DEF6E4 /* Resources */,
@@ -170,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FBD2F082450D8A900DEF6E4 /* Build configuration list for PBXNativeTarget "khanacademyUITests" */;
 			buildPhases = (
+				67A055D8D785B7BC1C2844E1 /* [CP] Check Pods Manifest.lock */,
 				4FBD2EF52450D8A900DEF6E4 /* Sources */,
 				4FBD2EF62450D8A900DEF6E4 /* Frameworks */,
 				4FBD2EF72450D8A900DEF6E4 /* Resources */,
+				EA1D4FCD3AB266519CA5EB7D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FBD2EE82450D8A900DEF6E4 /* LaunchScreen.storyboard in Resources */,
+				4F8E119F245642E400B72AD5 /* GoogleService-Info.plist in Resources */,
 				4FBD2EE52450D8A900DEF6E4 /* Assets.xcassets in Resources */,
 				4FBD2EE32450D8A800DEF6E4 /* Main.storyboard in Resources */,
 			);
@@ -253,6 +303,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BCA7705AC3E28FD75C1AB8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-khanacademy/Pods-khanacademy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-khanacademy/Pods-khanacademy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-khanacademy/Pods-khanacademy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67A055D8D785B7BC1C2844E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-khanacademy-khanacademyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FC9701849C52C85DACB47D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-khanacademy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3241CC9A3781DBA0C875EBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-khanacademyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA1D4FCD3AB266519CA5EB7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-khanacademy-khanacademyUITests/Pods-khanacademy-khanacademyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-khanacademy-khanacademyUITests/Pods-khanacademy-khanacademyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-khanacademy-khanacademyUITests/Pods-khanacademy-khanacademyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4FBD2ED42450D8A800DEF6E4 /* Sources */ = {
@@ -432,6 +585,7 @@
 		};
 		4FBD2F032450D8A900DEF6E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A56745A6549DEB2C962692AF /* Pods-khanacademy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +603,7 @@
 		};
 		4FBD2F042450D8A900DEF6E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D492A8CEBB76D273EE08395F /* Pods-khanacademy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +621,7 @@
 		};
 		4FBD2F062450D8A900DEF6E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 807B617E3D69F84DDDA1EB30 /* Pods-khanacademyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +643,7 @@
 		};
 		4FBD2F072450D8A900DEF6E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F09AD099012D0B06480FB08D /* Pods-khanacademyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +665,7 @@
 		};
 		4FBD2F092450D8A900DEF6E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDB74CFCFA24AA5E8D7DE21D /* Pods-khanacademy-khanacademyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +685,7 @@
 		};
 		4FBD2F0A2450D8A900DEF6E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AC020AC7DF2D19DA5B70EAA /* Pods-khanacademy-khanacademyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
