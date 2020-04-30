@@ -14,13 +14,75 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pxA-ew-os5">
+                                <rect key="frame" x="171" y="433" width="72" height="30"/>
+                                <state key="normal" title="Go to Map"/>
+                                <connections>
+                                    <segue destination="poP-kK-ku2" kind="show" id="JXi-Fd-sBZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="pxA-ew-os5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ZGH-94-8Lk"/>
+                            <constraint firstItem="pxA-ew-os5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nvA-l5-YE7"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="137.94642857142856"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="bc8-qY-bzj">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="agh-SA-KNI" customClass="MapViewController" customModule="khanacademy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8N7-cr-b37">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Xf3-zY-OKy">
+                                <rect key="frame" x="0.0" y="34" width="414" height="774"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Xf3-zY-OKy" firstAttribute="centerX" secondItem="8N7-cr-b37" secondAttribute="centerX" id="Gf2-WO-qwu"/>
+                            <constraint firstItem="3sr-Dz-urL" firstAttribute="trailing" secondItem="Xf3-zY-OKy" secondAttribute="trailing" id="Xdd-fm-KaO"/>
+                            <constraint firstItem="3sr-Dz-urL" firstAttribute="bottom" secondItem="Xf3-zY-OKy" secondAttribute="bottom" id="fIx-XQ-wVf"/>
+                            <constraint firstItem="Xf3-zY-OKy" firstAttribute="centerY" secondItem="8N7-cr-b37" secondAttribute="centerY" id="nYz-le-yR9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3sr-Dz-urL"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xI2-GI-vHh"/>
+                    <connections>
+                        <outlet property="mapView" destination="Xf3-zY-OKy" id="CEw-De-ZcL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DES-YX-Isu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1939.1304347826087" y="137.94642857142856"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="LxO-xa-C1V">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="poP-kK-ku2" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="I4a-M8-YEZ"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="376-gG-41D">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="agh-SA-KNI" kind="relationship" relationship="rootViewController" id="lag-KF-4BG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u6f-cn-ZBv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1028.985507246377" y="137.94642857142856"/>
         </scene>
     </scenes>
 </document>

@@ -17,6 +17,7 @@
 		4FBD2EE82450D8A900DEF6E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FBD2EE62450D8A900DEF6E4 /* LaunchScreen.storyboard */; };
 		4FBD2EF32450D8A900DEF6E4 /* khanacademyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBD2EF22450D8A900DEF6E4 /* khanacademyTests.swift */; };
 		4FBD2EFE2450D8A900DEF6E4 /* khanacademyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBD2EFD2450D8A900DEF6E4 /* khanacademyUITests.swift */; };
+		4FFF39AD245B7EDE00C9135C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF39AC245B7EDE00C9135C /* MapViewController.swift */; };
 		5462FD943852AE82B678828F /* Pods_khanacademy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2E46448A0214516A5EE547 /* Pods_khanacademy.framework */; };
 		D7CA98D6DB1FE09B0DE535D0 /* Pods_khanacademyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC208DF78CAC63E8B45F4EA /* Pods_khanacademyTests.framework */; };
 /* End PBXBuildFile section */
@@ -55,6 +56,7 @@
 		4FBD2EF92450D8A900DEF6E4 /* khanacademyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = khanacademyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FBD2EFD2450D8A900DEF6E4 /* khanacademyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = khanacademyUITests.swift; sourceTree = "<group>"; };
 		4FBD2EFF2450D8A900DEF6E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FFF39AC245B7EDE00C9135C /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		6B2E46448A0214516A5EE547 /* Pods_khanacademy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_khanacademy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		807B617E3D69F84DDDA1EB30 /* Pods-khanacademyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-khanacademyTests.debug.xcconfig"; path = "Target Support Files/Pods-khanacademyTests/Pods-khanacademyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A56745A6549DEB2C962692AF /* Pods-khanacademy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-khanacademy.debug.xcconfig"; path = "Target Support Files/Pods-khanacademy/Pods-khanacademy.debug.xcconfig"; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				4FBD2EDD2450D8A800DEF6E4 /* SceneDelegate.swift */,
 				4FBD2EDF2450D8A800DEF6E4 /* ViewController.swift */,
 				4FBD2EE12450D8A800DEF6E4 /* Main.storyboard */,
+				4FFF39AC245B7EDE00C9135C /* MapViewController.swift */,
 				4FBD2EE42450D8A900DEF6E4 /* Assets.xcassets */,
 				4FBD2EE62450D8A900DEF6E4 /* LaunchScreen.storyboard */,
 				4FBD2EE92450D8A900DEF6E4 /* Info.plist */,
@@ -450,6 +453,7 @@
 				4FBD2EE02450D8A800DEF6E4 /* ViewController.swift in Sources */,
 				4FBD2EDC2450D8A800DEF6E4 /* AppDelegate.swift in Sources */,
 				4FBD2EDE2450D8A800DEF6E4 /* SceneDelegate.swift in Sources */,
+				4FFF39AD245B7EDE00C9135C /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
