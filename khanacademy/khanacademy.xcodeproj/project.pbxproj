@@ -18,6 +18,9 @@
 		4FBD2EF32450D8A900DEF6E4 /* khanacademyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBD2EF22450D8A900DEF6E4 /* khanacademyTests.swift */; };
 		4FBD2EFE2450D8A900DEF6E4 /* khanacademyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBD2EFD2450D8A900DEF6E4 /* khanacademyUITests.swift */; };
 		5462FD943852AE82B678828F /* Pods_khanacademy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2E46448A0214516A5EE547 /* Pods_khanacademy.framework */; };
+		94A93130246A37910070CB71 /* EventListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A9312F246A37910070CB71 /* EventListScreen.swift */; };
+		94A93132246A37970070CB71 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A93131246A37970070CB71 /* EventCell.swift */; };
+		94A93134246A379D0070CB71 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A93133246A379D0070CB71 /* Event.swift */; };
 		D7CA98D6DB1FE09B0DE535D0 /* Pods_khanacademyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC208DF78CAC63E8B45F4EA /* Pods_khanacademyTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +60,9 @@
 		4FBD2EFF2450D8A900DEF6E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B2E46448A0214516A5EE547 /* Pods_khanacademy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_khanacademy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		807B617E3D69F84DDDA1EB30 /* Pods-khanacademyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-khanacademyTests.debug.xcconfig"; path = "Target Support Files/Pods-khanacademyTests/Pods-khanacademyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		94A9312F246A37910070CB71 /* EventListScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventListScreen.swift; path = ../../../../../../Desktop/iOS/projWork/projWork/EventListScreen.swift; sourceTree = "<group>"; };
+		94A93131246A37970070CB71 /* EventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventCell.swift; path = ../../../../../../Desktop/iOS/projWork/projWork/EventCell.swift; sourceTree = "<group>"; };
+		94A93133246A379D0070CB71 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Event.swift; path = ../../../../../../Desktop/iOS/projWork/projWork/Event.swift; sourceTree = "<group>"; };
 		A56745A6549DEB2C962692AF /* Pods-khanacademy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-khanacademy.debug.xcconfig"; path = "Target Support Files/Pods-khanacademy/Pods-khanacademy.debug.xcconfig"; sourceTree = "<group>"; };
 		CDB74CFCFA24AA5E8D7DE21D /* Pods-khanacademy-khanacademyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-khanacademy-khanacademyUITests.debug.xcconfig"; path = "Target Support Files/Pods-khanacademy-khanacademyUITests/Pods-khanacademy-khanacademyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D492A8CEBB76D273EE08395F /* Pods-khanacademy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-khanacademy.release.xcconfig"; path = "Target Support Files/Pods-khanacademy/Pods-khanacademy.release.xcconfig"; sourceTree = "<group>"; };
@@ -131,6 +137,9 @@
 				4F8E119E245642E400B72AD5 /* GoogleService-Info.plist */,
 				4FBD2EDB2450D8A800DEF6E4 /* AppDelegate.swift */,
 				4FBD2EDD2450D8A800DEF6E4 /* SceneDelegate.swift */,
+				94A9312F246A37910070CB71 /* EventListScreen.swift */,
+				94A93133246A379D0070CB71 /* Event.swift */,
+				94A93131246A37970070CB71 /* EventCell.swift */,
 				4FBD2EDF2450D8A800DEF6E4 /* ViewController.swift */,
 				4FBD2EE12450D8A800DEF6E4 /* Main.storyboard */,
 				4FBD2EE42450D8A900DEF6E4 /* Assets.xcassets */,
@@ -449,6 +458,9 @@
 			files = (
 				4FBD2EE02450D8A800DEF6E4 /* ViewController.swift in Sources */,
 				4FBD2EDC2450D8A800DEF6E4 /* AppDelegate.swift in Sources */,
+				94A93132246A37970070CB71 /* EventCell.swift in Sources */,
+				94A93130246A37910070CB71 /* EventListScreen.swift in Sources */,
+				94A93134246A379D0070CB71 /* Event.swift in Sources */,
 				4FBD2EDE2450D8A800DEF6E4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -624,6 +636,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D269DR4Z5A;
 				INFOPLIST_FILE = khanacademy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -642,6 +655,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D269DR4Z5A;
 				INFOPLIST_FILE = khanacademy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
