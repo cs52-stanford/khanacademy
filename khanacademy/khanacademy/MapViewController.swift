@@ -23,7 +23,7 @@ class MapViewController: UIViewController {
 
     func setupSearchController() {
         resultsViewController = GMSAutocompleteResultsViewController()
-        resultsViewController?.delegate = self
+        //resultsViewController?.delegate = self
         searchController = UISearchController(searchResultsController: resultsViewController)
         searchController?.searchResultsUpdater = resultsViewController
 
