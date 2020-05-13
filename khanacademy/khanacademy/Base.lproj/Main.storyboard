@@ -150,7 +150,7 @@
                                         <connections>
                                             <outlet property="eventDate" destination="rNN-OE-tmL" id="x8i-rc-Myw"/>
                                             <outlet property="eventLocation" destination="56Z-am-JgK" id="DBW-uq-YS0"/>
-                                            <outlet property="eventName" destination="Jkw-uR-WeD" id="A46-rx-XJK"/>
+                                            <outlet property="eventName" destination="Jkw-uR-WeD" id="9Lf-D1-Y0n"/>
                                             <outlet property="eventOrganization" destination="H8Y-27-XR0" id="MAF-FI-sK6"/>
                                             <outlet property="eventTime" destination="w9G-FC-EOd" id="rdD-hy-P9u"/>
                                             <segue destination="rLN-As-ixE" kind="show" id="sgw-Lp-M5K"/>
