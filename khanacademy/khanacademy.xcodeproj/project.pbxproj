@@ -12,7 +12,7 @@
 		4FBD2EDC2450D8A800DEF6E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBD2EDB2450D8A800DEF6E4 /* AppDelegate.swift */; };
 		4FBD2EDE2450D8A800DEF6E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBD2EDD2450D8A800DEF6E4 /* SceneDelegate.swift */; };
 		4FBD2EE02450D8A800DEF6E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBD2EDF2450D8A800DEF6E4 /* ViewController.swift */; };
-		4FBD2EE32450D8A800DEF6E4 /* MainEvent.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FBD2EE12450D8A800DEF6E4 /* MainEvent.storyboard */; };
+		4FBD2EE32450D8A800DEF6E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FBD2EE12450D8A800DEF6E4 /* Main.storyboard */; };
 		4FBD2EE52450D8A900DEF6E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FBD2EE42450D8A900DEF6E4 /* Assets.xcassets */; };
 		4FBD2EE82450D8A900DEF6E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FBD2EE62450D8A900DEF6E4 /* LaunchScreen.storyboard */; };
 		4FBD2EF32450D8A900DEF6E4 /* khanacademyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBD2EF22450D8A900DEF6E4 /* khanacademyTests.swift */; };
@@ -48,7 +48,7 @@
 		4FBD2EDB2450D8A800DEF6E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FBD2EDD2450D8A800DEF6E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4FBD2EDF2450D8A800DEF6E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4FBD2EE22450D8A800DEF6E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainEvent.storyboard; sourceTree = "<group>"; };
+		4FBD2EE22450D8A800DEF6E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4FBD2EE42450D8A900DEF6E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FBD2EE72450D8A900DEF6E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FBD2EE92450D8A900DEF6E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,9 +60,9 @@
 		4FBD2EFF2450D8A900DEF6E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B2E46448A0214516A5EE547 /* Pods_khanacademy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_khanacademy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		807B617E3D69F84DDDA1EB30 /* Pods-khanacademyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-khanacademyTests.debug.xcconfig"; path = "Target Support Files/Pods-khanacademyTests/Pods-khanacademyTests.debug.xcconfig"; sourceTree = "<group>"; };
-		94A9312F246A37910070CB71 /* EventListScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventListScreen.swift; path = ../../../../../../Desktop/iOS/projWork/projWork/EventListScreen.swift; sourceTree = "<group>"; };
-		94A93131246A37970070CB71 /* EventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventCell.swift; path = ../../../../../../Desktop/iOS/projWork/projWork/EventCell.swift; sourceTree = "<group>"; };
-		94A93133246A379D0070CB71 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Event.swift; path = ../../../../../../Desktop/iOS/projWork/projWork/Event.swift; sourceTree = "<group>"; };
+		94A9312F246A37910070CB71 /* EventListScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventListScreen.swift; path = khanacademy/EventListScreen.swift; sourceTree = SOURCE_ROOT; };
+		94A93131246A37970070CB71 /* EventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		94A93133246A379D0070CB71 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		A56745A6549DEB2C962692AF /* Pods-khanacademy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-khanacademy.debug.xcconfig"; path = "Target Support Files/Pods-khanacademy/Pods-khanacademy.debug.xcconfig"; sourceTree = "<group>"; };
 		CDB74CFCFA24AA5E8D7DE21D /* Pods-khanacademy-khanacademyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-khanacademy-khanacademyUITests.debug.xcconfig"; path = "Target Support Files/Pods-khanacademy-khanacademyUITests/Pods-khanacademy-khanacademyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D492A8CEBB76D273EE08395F /* Pods-khanacademy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-khanacademy.release.xcconfig"; path = "Target Support Files/Pods-khanacademy/Pods-khanacademy.release.xcconfig"; sourceTree = "<group>"; };
@@ -140,8 +140,8 @@
 				94A9312F246A37910070CB71 /* EventListScreen.swift */,
 				94A93133246A379D0070CB71 /* Event.swift */,
 				94A93131246A37970070CB71 /* EventCell.swift */,
+				4FBD2EE12450D8A800DEF6E4 /* Main.storyboard */,
 				4FBD2EDF2450D8A800DEF6E4 /* ViewController.swift */,
-				4FBD2EE12450D8A800DEF6E4 /* MainEvent.storyboard */,
 				4FBD2EE42450D8A900DEF6E4 /* Assets.xcassets */,
 				4FBD2EE62450D8A900DEF6E4 /* LaunchScreen.storyboard */,
 				4FBD2EE92450D8A900DEF6E4 /* Info.plist */,
@@ -294,7 +294,7 @@
 				4FBD2EE82450D8A900DEF6E4 /* LaunchScreen.storyboard in Resources */,
 				4F8E119F245642E400B72AD5 /* GoogleService-Info.plist in Resources */,
 				4FBD2EE52450D8A900DEF6E4 /* Assets.xcassets in Resources */,
-				4FBD2EE32450D8A800DEF6E4 /* MainEvent.storyboard in Resources */,
+				4FBD2EE32450D8A800DEF6E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,12 +497,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4FBD2EE12450D8A800DEF6E4 /* MainEvent.storyboard */ = {
+		4FBD2EE12450D8A800DEF6E4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				4FBD2EE22450D8A800DEF6E4 /* Base */,
 			);
-			name = MainEvent.storyboard;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		4FBD2EE62450D8A900DEF6E4 /* LaunchScreen.storyboard */ = {
