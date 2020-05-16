@@ -632,7 +632,7 @@ CERvbmU
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KXj-4U-X7Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="280" y="-872"/>
+            <point key="canvasLocation" x="361" y="-847"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="JWW-ed-D8R">
