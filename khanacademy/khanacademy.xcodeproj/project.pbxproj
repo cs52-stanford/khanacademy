@@ -8,10 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		378971D445AB449BA4A50BD6 /* Pods_khanacademy_khanacademyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD32910D00C4B7D39E806EA0 /* Pods_khanacademy_khanacademyUITests.framework */; };
+		4F3FA72E24723B63008AFFB8 /* EventListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A9312F246A37910070CB71 /* EventListScreen.swift */; };
+		4F3FA72F24723B63008AFFB8 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A93133246A379D0070CB71 /* Event.swift */; };
+		4F3FA73024723B63008AFFB8 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A93131246A37970070CB71 /* EventCell.swift */; };
+		4F3FA73424723D25008AFFB8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3FA73324723D25008AFFB8 /* MapViewController.swift */; };
+		4F3FA739247242A3008AFFB8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3FA736247242A2008AFFB8 /* SignUpViewController.swift */; };
+		4F3FA73A247242A3008AFFB8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3FA737247242A3008AFFB8 /* LoginViewController.swift */; };
 		4F8E119F245642E400B72AD5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F8E119E245642E400B72AD5 /* GoogleService-Info.plist */; };
-		4FB21C9A246FCDA000F543B4 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A93133246A379D0070CB71 /* Event.swift */; };
-		4FB21C9B246FCDA400F543B4 /* EventListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A9312F246A37910070CB71 /* EventListScreen.swift */; };
-		4FB21C9C246FCDA800F543B4 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A93131246A37970070CB71 /* EventCell.swift */; };
 		4FBD2EDC2450D8A800DEF6E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBD2EDB2450D8A800DEF6E4 /* AppDelegate.swift */; };
 		4FBD2EDE2450D8A800DEF6E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBD2EDD2450D8A800DEF6E4 /* SceneDelegate.swift */; };
 		4FBD2EE02450D8A800DEF6E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBD2EDF2450D8A800DEF6E4 /* ViewController.swift */; };
@@ -43,6 +46,9 @@
 
 /* Begin PBXFileReference section */
 		2AC020AC7DF2D19DA5B70EAA /* Pods-khanacademy-khanacademyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-khanacademy-khanacademyUITests.release.xcconfig"; path = "Target Support Files/Pods-khanacademy-khanacademyUITests/Pods-khanacademy-khanacademyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4F3FA73324723D25008AFFB8 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../../../MapViewController.swift; sourceTree = "<group>"; };
+		4F3FA736247242A2008AFFB8 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = ../../../SignUpViewController.swift; sourceTree = "<group>"; };
+		4F3FA737247242A3008AFFB8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../../../LoginViewController.swift; sourceTree = "<group>"; };
 		4F8E119E245642E400B72AD5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4FBD2ED82450D8A800DEF6E4 /* khanacademy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = khanacademy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FBD2EDB2450D8A800DEF6E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -140,6 +146,9 @@
 				94A9312F246A37910070CB71 /* EventListScreen.swift */,
 				94A93133246A379D0070CB71 /* Event.swift */,
 				94A93131246A37970070CB71 /* EventCell.swift */,
+				4F3FA73324723D25008AFFB8 /* MapViewController.swift */,
+				4F3FA737247242A3008AFFB8 /* LoginViewController.swift */,
+				4F3FA736247242A2008AFFB8 /* SignUpViewController.swift */,
 				4FBD2EE12450D8A800DEF6E4 /* Main.storyboard */,
 				4FBD2EDF2450D8A800DEF6E4 /* ViewController.swift */,
 				4FBD2EE42450D8A900DEF6E4 /* Assets.xcassets */,
@@ -456,12 +465,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FB21C9C246FCDA800F543B4 /* EventCell.swift in Sources */,
-				4FB21C9B246FCDA400F543B4 /* EventListScreen.swift in Sources */,
-				4FB21C9A246FCDA000F543B4 /* Event.swift in Sources */,
+				4F3FA72E24723B63008AFFB8 /* EventListScreen.swift in Sources */,
+				4F3FA72F24723B63008AFFB8 /* Event.swift in Sources */,
+				4F3FA73024723B63008AFFB8 /* EventCell.swift in Sources */,
 				4FBD2EE02450D8A800DEF6E4 /* ViewController.swift in Sources */,
 				4FBD2EDC2450D8A800DEF6E4 /* AppDelegate.swift in Sources */,
+				4F3FA739247242A3008AFFB8 /* SignUpViewController.swift in Sources */,
 				4FBD2EDE2450D8A800DEF6E4 /* SceneDelegate.swift in Sources */,
+				4F3FA73A247242A3008AFFB8 /* LoginViewController.swift in Sources */,
+				4F3FA73424723D25008AFFB8 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
