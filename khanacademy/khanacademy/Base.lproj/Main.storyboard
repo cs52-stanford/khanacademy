@@ -396,7 +396,7 @@ CERvbmU
                     <viewLayoutGuide key="safeArea" id="Few-Ba-fFr"/>
                 </view>
             </objects>
-            <point key="canvasLocation" x="1047.8260869565217" y="116.51785714285714"/>
+            <point key="canvasLocation" x="1957.9710144927537" y="116.51785714285714"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="P0m-9w-7zX">
@@ -575,7 +575,7 @@ CERvbmU
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WI8-dg-xcQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1131.8840579710145" y="829.6875"/>
+            <point key="canvasLocation" x="2042.0289855072465" y="829.6875"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="y6h-fS-LhI">
@@ -600,9 +600,9 @@ CERvbmU
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vq4-kX-kFV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1942" y="118"/>
+            <point key="canvasLocation" x="2850.7246376811595" y="117.85714285714285"/>
         </scene>
-        <!--Map-->
+        <!--View Controller-->
         <scene sceneID="MR8-VH-Vc8">
             <objects>
                 <viewController id="uys-cp-T7g" sceneMemberID="viewController">
@@ -612,11 +612,11 @@ CERvbmU
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="HAj-lH-brE"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Map" image="map" catalog="system" id="lNF-WR-t0y"/>
+                    <navigationItem key="navigationItem" id="Qbo-2X-KQM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qPX-fw-Hfk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1838" y="299"/>
+            <point key="canvasLocation" x="-662" y="548"/>
         </scene>
         <!--Settings-->
         <scene sceneID="Kr7-fl-NpC">
@@ -644,7 +644,7 @@ CERvbmU
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="uys-cp-T7g" kind="relationship" relationship="viewControllers" id="cog-S5-ADn"/>
+                        <segue destination="t0M-mz-OVe" kind="relationship" relationship="viewControllers" id="cog-S5-ADn"/>
                         <segue destination="jdC-hf-hwG" kind="relationship" relationship="viewControllers" id="J7l-eH-jDH"/>
                         <segue destination="zZ2-sR-HRa" kind="relationship" relationship="viewControllers" id="oB9-eO-Q9a"/>
                     </connections>
@@ -670,7 +670,26 @@ CERvbmU
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="txG-bo-aIJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="116.51785714285714"/>
+            <point key="canvasLocation" x="1047.8260869565217" y="116.51785714285714"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="aQh-Oi-oGS">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="t0M-mz-OVe" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Map" image="map" catalog="system" id="lNF-WR-t0y"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="41i-X2-cfG">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="uys-cp-T7g" kind="relationship" relationship="rootViewController" id="ChA-aC-8uo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iU3-QF-tqP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1788.4057971014495" y="547.76785714285711"/>
         </scene>
     </scenes>
     <resources>
