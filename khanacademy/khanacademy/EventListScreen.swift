@@ -8,12 +8,14 @@
 
 import UIKit
 
+
+var events: [Event] = []
+
 class EventListScreen: UIViewController {
     
 
     @IBOutlet weak var tableView: UITableView!
-    
-    var events: [Event] = []
+
     
     // categories
     @IBAction func catButton(_ sender: Any) {
@@ -85,6 +87,9 @@ class EventListScreen: UIViewController {
         self.orgView.removeFromSuperview()
     }
     
+    // add event
+    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -97,6 +102,9 @@ class EventListScreen: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    func reloadTableView() {
+        self.tableView.reloadData()
+    }
     func createArray() -> [Event] {
         var tempEvents: [Event] = []
         
@@ -110,6 +118,8 @@ class EventListScreen: UIViewController {
         
         return tempEvents
     }
+    
+   
     
     
     /*
