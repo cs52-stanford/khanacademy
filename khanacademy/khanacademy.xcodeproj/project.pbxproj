@@ -11,6 +11,7 @@
 		4F3FA72E24723B63008AFFB8 /* EventListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A9312F246A37910070CB71 /* EventListScreen.swift */; };
 		4F3FA72F24723B63008AFFB8 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A93133246A379D0070CB71 /* Event.swift */; };
 		4F3FA73024723B63008AFFB8 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A93131246A37970070CB71 /* EventCell.swift */; };
+		4F6304DD247B7F0A0078D282 /* AddingEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6304DC247B7F0A0078D282 /* AddingEvents.swift */; };
 		4F8D0C322472452F00240907 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D0C312472452F00240907 /* LoginViewController.swift */; };
 		4F8D0C342472453800240907 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D0C332472453800240907 /* SignUpViewController.swift */; };
 		4F8D0C362472457800240907 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D0C352472457800240907 /* MapViewController.swift */; };
@@ -46,6 +47,7 @@
 
 /* Begin PBXFileReference section */
 		2AC020AC7DF2D19DA5B70EAA /* Pods-khanacademy-khanacademyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-khanacademy-khanacademyUITests.release.xcconfig"; path = "Target Support Files/Pods-khanacademy-khanacademyUITests/Pods-khanacademy-khanacademyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4F6304DC247B7F0A0078D282 /* AddingEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddingEvents.swift; path = khanacademy/AddingEvents.swift; sourceTree = "<group>"; };
 		4F8D0C312472452F00240907 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4F8D0C332472453800240907 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		4F8D0C352472457800240907 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 		4FBD2ECF2450D8A800DEF6E4 = {
 			isa = PBXGroup;
 			children = (
+				4F6304DC247B7F0A0078D282 /* AddingEvents.swift */,
 				4FBD2EDA2450D8A800DEF6E4 /* khanacademy */,
 				4FBD2EF12450D8A900DEF6E4 /* khanacademyTests */,
 				4FBD2EFC2450D8A900DEF6E4 /* khanacademyUITests */,
@@ -465,6 +468,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F6304DD247B7F0A0078D282 /* AddingEvents.swift in Sources */,
 				4F8D0C322472452F00240907 /* LoginViewController.swift in Sources */,
 				4F3FA72E24723B63008AFFB8 /* EventListScreen.swift in Sources */,
 				4F8D0C342472453800240907 /* SignUpViewController.swift in Sources */,
