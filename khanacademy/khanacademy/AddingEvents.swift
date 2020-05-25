@@ -7,52 +7,44 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseDatabase
 
 class AddingEvents: UIViewController {
 
+    var ref: DatabaseReference!
+    var date = ""
+
+    @IBOutlet weak var inputName: UITextField?
+    @IBOutlet weak var inputDescription: UITextField?
+    @IBOutlet weak var inputOrganization: UITextField?
+    @IBOutlet weak var inputCategory: UITextField?
+    @IBOutlet weak var datePicker: UIDatePicker!
     
-
-       @IBOutlet weak var inputName: UITextField?
-       
-       @IBOutlet weak var inputDescription: UITextField?
-       
-      
-       @IBAction func inputDate(_ sender: Any) {
-       }
-       
-       @IBOutlet weak var inputOrganization: UITextField?
-       
-       @IBOutlet weak var inputCategory: UITextField?
-       
-
-       @IBOutlet weak var inputLocation: UITextField?
-       
-       @IBAction func buttonSearchInMap(_ sender: Any) {
-       }
-       
-       
-       @IBAction func registerEventButton(_ sender: UIButton) {
-       /*
-        let newEvent = Event(name: "\(inputName?.text ?? "default")" , date: "", location: "\(String(describing: inputLocation?.text))", organization: "\(inputOrganization?.text ?? "default val")")
-               //return newEvent
-        
-        events.append(newEvent)
-        let vc = EventListScreen()
-        vc.reloadTableView()
-    */
-       }
-       
-       
-       
-       
-       
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        ref = Database.database().reference()
     }
     
-
+    @IBAction func buttonSearchInMap(_ sender: Any) {
+    }
+    
+    @IBAction func registerEventButton(_ sender: UIButton) {
+        
+        self.ref.child("events").childByAutoId().setValue(["name": inputName?.text, "description": inputDescription?.text, "organization": inputDescription?.text, "category": inputCategory?.text, "date": date]);
+    }
+    
+    @IBAction func datePickerChanged(_ sender: Any) {
+        let dateFormatter = DateFormatter()
+        
+        dateFormatter.dateStyle = DateFormatter.Style.short
+        dateFormatter.timeStyle = DateFormatter.Style.short
+        
+        let strDate = dateFormatter.string(from: datePicker.date)
+        date = strDate
+    }
+    
     /*
     // MARK: - Navigation
 

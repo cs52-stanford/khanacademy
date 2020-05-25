@@ -686,6 +686,8 @@ CERvbmU
                                     <constraint firstAttribute="height" constant="70" id="6XO-lC-XfM"/>
                                 </constraints>
                                 <connections>
+                                    <action selector="datePicker:" destination="84n-TL-3pF" eventType="valueChanged" id="UOc-UK-aIA"/>
+                                    <action selector="datePickerChanged:" destination="84n-TL-3pF" eventType="valueChanged" id="9pg-Id-kcn"/>
                                     <action selector="inputDate:" destination="84n-TL-3pF" eventType="valueChanged" id="rUv-Wx-zhF"/>
                                 </connections>
                             </datePicker>
@@ -778,9 +780,9 @@ CERvbmU
                     </view>
                     <navigationItem key="navigationItem" id="nkL-Xl-DAD"/>
                     <connections>
+                        <outlet property="datePicker" destination="tBd-vG-Wjb" id="6yh-jI-NTq"/>
                         <outlet property="inputCategory" destination="Ds9-CH-cze" id="0Hi-Hv-ZS6"/>
                         <outlet property="inputDescription" destination="Fuw-Dg-PJ8" id="mFZ-sr-jUO"/>
-                        <outlet property="inputLocation" destination="QiY-Fb-wQQ" id="7fF-Np-DD5"/>
                         <outlet property="inputName" destination="LBJ-db-CQu" id="AGd-0M-fkx"/>
                         <outlet property="inputOrganization" destination="SeN-S4-dCN" id="yiQ-zd-YvH"/>
                     </connections>

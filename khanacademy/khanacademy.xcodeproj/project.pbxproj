@@ -47,7 +47,7 @@
 
 /* Begin PBXFileReference section */
 		2AC020AC7DF2D19DA5B70EAA /* Pods-khanacademy-khanacademyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-khanacademy-khanacademyUITests.release.xcconfig"; path = "Target Support Files/Pods-khanacademy-khanacademyUITests/Pods-khanacademy-khanacademyUITests.release.xcconfig"; sourceTree = "<group>"; };
-		4F6304DC247B7F0A0078D282 /* AddingEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddingEvents.swift; path = khanacademy/AddingEvents.swift; sourceTree = "<group>"; };
+		4F6304DC247B7F0A0078D282 /* AddingEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingEvents.swift; sourceTree = "<group>"; };
 		4F8D0C312472452F00240907 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4F8D0C332472453800240907 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		4F8D0C352472457800240907 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -120,7 +120,6 @@
 		4FBD2ECF2450D8A800DEF6E4 = {
 			isa = PBXGroup;
 			children = (
-				4F6304DC247B7F0A0078D282 /* AddingEvents.swift */,
 				4FBD2EDA2450D8A800DEF6E4 /* khanacademy */,
 				4FBD2EF12450D8A900DEF6E4 /* khanacademyTests */,
 				4FBD2EFC2450D8A900DEF6E4 /* khanacademyUITests */,
@@ -143,6 +142,7 @@
 		4FBD2EDA2450D8A800DEF6E4 /* khanacademy */ = {
 			isa = PBXGroup;
 			children = (
+				4F6304DC247B7F0A0078D282 /* AddingEvents.swift */,
 				4F8E119E245642E400B72AD5 /* GoogleService-Info.plist */,
 				4FBD2EDB2450D8A800DEF6E4 /* AppDelegate.swift */,
 				4FBD2EDD2450D8A800DEF6E4 /* SceneDelegate.swift */,
