@@ -8,6 +8,7 @@
 
 import UIKit
 import MapKit
+import GoogleMaps
 import GooglePlaces
 
 class MapViewController: UIViewController {
@@ -19,6 +20,17 @@ class MapViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupSearchController()
+        
+        // start at Stanford
+        let camera = GMSCameraPosition.camera(
+            withLatitude: 37.4275,
+            longitude: 122.1697,
+            zoom: 16)
+        let mapView = GMSMapView.map(
+            withFrame: self.view.bounds,
+            camera: camera)
+        
+
     }
 
     func setupSearchController() {

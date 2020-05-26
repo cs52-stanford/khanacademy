@@ -18,8 +18,9 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var errorLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
+        loginButton?.layer.cornerRadius = 25.0
     }
     
 
